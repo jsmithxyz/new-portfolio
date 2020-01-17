@@ -4,8 +4,28 @@ body {
     flex-direction: column;
   }
 
-.brand-logo {
-    margin-left:30px;
+
+.main-content {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+  height: 100vh;
+  
+}
+
+/* JS logo styling */
+a.brand-logo {
+    margin-left: 50px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    text-shadow: 2px 2px 7px #000000;
+    font-weight: bold;
+    
 }
 
 .active {
@@ -16,3 +36,34 @@ body {
 main {
     flex: 1 0 auto;
   }
+
+div.nav-wrapper {
+  background-color: lightskyblue;
+
+}
+
+#nav-mobile {
+  font-family: 'Neuton', serif;
+  text-shadow: 2px 2px 7px #000000;
+  font-weight: bold;
+}
+
+.nav-options a {
+  font-size: 25px;
+}
+
+.nav-options a:last-child {
+  margin-right: 30px;
+}
+
+footer.page-footer {
+  background-color: lightskyblue;
+}
+
+.carousel-item {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+
