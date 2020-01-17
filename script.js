@@ -4,7 +4,7 @@ $('.carousel').carousel({
     'indicators': true,
 });
 
-
+$('.tooltipped').tooltip();
 
 
 

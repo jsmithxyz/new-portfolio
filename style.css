@@ -5,22 +5,25 @@ body {
   }
 
 
+
 .main-content {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   text-align: center;
-  font-family: 'Neuton', serif;
+  font-family: 'Ibarra Real Nova', serif;  
+  color: black;
   font-size: 30px;
   height: 100vh;
+  
   
 }
 
 /* JS logo styling */
 a.brand-logo {
     margin-left: 50px;
-    font-size: 40px;
+    font-size: 45px;
     color: white;
     font-family: 'Lobster Two', cursive;
     text-shadow: 2px 2px 7px #000000;
@@ -38,14 +41,15 @@ main {
   }
 
 div.nav-wrapper {
-  background-color: lightskyblue;
-
+  background-color:  #185218;
 }
 
 #nav-mobile {
-  font-family: 'Neuton', serif;
+  font-family: 'Lobster Two', cursive;  
+  color: white;
+  letter-spacing: .2em;
   text-shadow: 2px 2px 7px #000000;
-  font-weight: bold;
+  font-weight: 200;
 }
 
 .nav-options a {
@@ -57,7 +61,7 @@ div.nav-wrapper {
 }
 
 footer.page-footer {
-  background-color: lightskyblue;
+  background-color:   #185218;
 }
 
 .carousel-item {
