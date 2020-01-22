@@ -24,16 +24,7 @@ body {
   
 }
 
-/* JS logo styling */
-a.brand-logo {
-    margin-left: 50px;
-    font-size: 65px;
-    color: black;
-    font-family: 'Rambla', sans-serif;
-    font-weight: bold;
-    -webkit-text-stroke: 1.5px white;
-    
-}
+
 
 .active {
     margin-left: 30px;
@@ -45,8 +36,7 @@ main {
   }
 
 
-#nav-mobile {
-  font-family: 'Lobster Two', cursive;  
+#nav-mobile {  
   color: white;
   letter-spacing: .2em;
   font-weight: 200;
@@ -70,15 +60,17 @@ div.footer-copyright {
 
 
 #name {
-  font-size: 95px;
+  font-size: 70px;
   font-style: bold;
   margin-bottom: 0px;
   text-align: center;
+  font-family: 'Martel', serif;
 }
 
 #title {
   margin-top: 0px;
   color: white;
+  
 
 }
 
@@ -94,6 +86,8 @@ div.footer-copyright {
   border-radius: 20px;
   border-style: solid;
   border-color: #1ac6ff;
+  font-family: 'Martel', serif;
+
 }
 #profilePic {
   border-radius: 20px;
@@ -129,27 +123,40 @@ div#picHolder.col.s6 {
 
 #projectHeader {
   color: white;
-  font-size: 65px;
-  font-family: 'Rambla', sans-serif;
+  font-size: 30px;
+  font-family:'Rambla', sans-serif; 
   text-align: left;
-  margin-left: 65px;
-  -webkit-text-stroke: 1px black;
+  margin-left: 150px;
+  /* -webkit-text-stroke: 1px black; */
 
 
 }
 
 .projectItem {
   margin: 20px;
-  height: 214px;
-  width: 378px;
+  height: 300px;
+  width: 460px;
   border-style: solid;
   border-width: 2px;
-  border-color: white;
+  
   border-radius: 10px;
 }
 
 footer.page-footer {
   background-color: white;
+}
+
+div.modal-footer {
+  text-align: center !important;
+  color: #1ac6ff;
+  -webkit-text-stroke: 1px black;
+}
+
+#resumeBtn {
+  background-color: #1ac6ff;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
 }
 
 
