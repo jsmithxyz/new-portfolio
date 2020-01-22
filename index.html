@@ -1,90 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Lobster+Two|Ubuntu&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/8eda10df1b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Lobster+Two|Ubuntu&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rambla:700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8eda10df1b.js" crossorigin="anonymous"></script>
 
-    <title>Jordan Smith</title>
+  <title>Jordan Smith</title>
 </head>
+
 <body>
+  <div class="navbar-fixed">
+    <nav class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="right">
+          <li class="nav-options"><a href="#row3"><i class="far fa-folder-open tooltipped" data-position="bottom"
+                data-tooltip="Portfolio"></i></a></li>
+          <li class="nav-options"><a href="collapsible.html"><i class="far fa-address-card tooltipped"
+                data-position="bottom" data-tooltip="Contact"></i></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
+  <main>
+    <div class="container">
+      <div class="row" id="row1">
+        <div class="col s2">
 
-    <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">JSmith</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li class= "nav-options"><a href="badges.html"><i class="far fa-folder-open tooltipped" data-position="bottom" data-tooltip="Portfolio"></i></a></li>
-            <li class= "nav-options"><a href="collapsible.html"><i class="far fa-address-card tooltipped" data-position="bottom" data-tooltip="Contact"></i></i></a></li>
-          </ul>
         </div>
-      </nav>
+        <div class="col s8">
+          <p id="name">JORDAN SMITH</p>
+          <p id="title">.web developer.</p>
 
-      <main>
-        <div class="main-content">
-          <div class="row">
-            <div class="col s12">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis inventore alias, illo ut quod ratione. Odit at aspernatur quos aut fuga quisquam, eaque sapiente doloribus, neque ex delectus impedit. Mollitia.</p>
-            </div>
-          <div class="row">
-            <div class="col s4">
-              this
-            </div>
-            <div class="col s4">
-              that
-            </div>
-            <div class="col s4">
-              there
-            </div>
-          </div>
-          </div>
-          <div class="row">
-            <div class="col s12">
-              <div class="carousel">
-                <a class="carousel-item" href="#one!"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoE1jTe7nCMp8Fy3YGHtdpU_u-eIlEHMUz5TcKyhWydpqN0ca-&s"></a>
-                <a class="carousel-item" href="#two!"><img src=></a>
-                <a class="carousel-item" href="#three!"><img src=></a>
-                <a class="carousel-item" href="#four!"><img src=></a>
-                <a class="carousel-item" href="#five!"><img src=></a>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="row">
+                <div class="col s6" id="picHolder">
+                  <img src="images/JordanS_JordanS-R1-E008.jpg" height=200 width=200 id="profilePic">
+                </div>
+                <div class="col s6">
+                  <p id="bio">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti est consectetur
+                    recusandae qui
+                    eius ad expedita veritatis officiis explicabo tempora? Consequuntur velit excepturi necessitatibus
+                    labore sequi aperiam nisi officia aspernatur.</p>
+                </div>
+              </div>
+
+
+              <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect btn-flat">Close</a>
               </div>
             </div>
 
-
           </div>
         </div>
+        <div class="col s2">
 
-      </main>
-
-
-      <footer class="page-footer">
-        <!-- <div class="container">
-            <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Footer Content</h5>
-              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Links</h5>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-              </ul>
-            </div>
-          </div> 
-        </div> -->
-        <div class="footer-copyright">
-          <div class="container">
-          © 2020 Copyright
-          </div>
         </div>
-      </footer>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="script.js"></script>
+      </div>
+
+
+      <div class="row" id="row2">
+        <div class="col s4"></div>
+        <div class="col s4">
+          <a class="btn-floating btn modal-trigger z-depth-4 pulse" id="aboutBtn" role="button"
+            data-target="modal1">+</a>
+        </div>
+        <div class="col s4"></div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="row section scrollspy" id="row3">
+        <h1>This is where the portfoolio will go</h1>
+      </div>
+
+    </div>
+    </div>
+
+  </main>
+
+
+  <footer class="page-footer transparent z-depth-0">
+    <div class="footer-copyright">
+      © 2020 Copyright
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>

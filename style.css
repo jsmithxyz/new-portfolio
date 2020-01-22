@@ -1,21 +1,25 @@
 body {
     display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    width: 100%;
+    flex-direction: column; 
+    background-color: black;
+    background-size: cover;
   }
 
 
 
-.main-content {
+.container {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   text-align: center;
-  font-family: 'Ibarra Real Nova', serif;  
-  color: black;
+  font-family:'Rambla', sans-serif;  
+  color: #1ac6ff;
   font-size: 30px;
   height: 100vh;
+  justify-content: center;
   
   
 }
@@ -23,11 +27,11 @@ body {
 /* JS logo styling */
 a.brand-logo {
     margin-left: 50px;
-    font-size: 45px;
-    color: white;
-    font-family: 'Lobster Two', cursive;
-    text-shadow: 2px 2px 7px #000000;
+    font-size: 65px;
+    color: black;
+    font-family: 'Rambla', sans-serif;
     font-weight: bold;
+    -webkit-text-stroke: 1.5px white;
     
 }
 
@@ -40,34 +44,79 @@ main {
     flex: 1 0 auto;
   }
 
-div.nav-wrapper {
-  background-color:  #185218;
-}
 
 #nav-mobile {
   font-family: 'Lobster Two', cursive;  
   color: white;
   letter-spacing: .2em;
-  text-shadow: 2px 2px 7px #000000;
   font-weight: 200;
 }
 
 .nav-options a {
-  font-size: 25px;
+  font-size: 35px;
+  color: black;
+  -webkit-text-stroke: 1px white;
 }
 
 .nav-options a:last-child {
   margin-right: 30px;
 }
 
-footer.page-footer {
-  background-color:   #185218;
+div.footer-copyright {
+  background-color:  black;
+  justify-content: center !important;
+
 }
 
-.carousel-item {
+
+#name {
+  font-size: 95px;
+  font-style: bold;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#title {
+  margin-top: 0px;
+  color: white;
+
+}
+
+#aboutBtn {
+  background-color: white;
+  color: #1ac6ff;
+  font-size: 25px;
+}
+
+#modal1 {
+  color: black;
+  text-align: justify;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #1ac6ff;
+}
+#profilePic {
+  border-radius: 20px;
   border-style: solid;
   border-color: black;
-  border-width: 1px;
+  justify-self: center;
 }
+
+div#picHolder.col.s6 {
+  display: flex;
+  justify-content: center;
+}
+
+#bio {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 0px;
+  
+}
+
+
+
+
+
 
 
