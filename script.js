@@ -8,7 +8,8 @@ $('.tooltipped').tooltip();
 
 $('.modal').modal();
 
-$("#down1").click(function(){
-    $('.scrollspy').scrollSpy();
+$('.scrollspy').scrollSpy({
+    'scrollOffset': 0,
 });
+
 })

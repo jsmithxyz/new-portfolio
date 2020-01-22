@@ -24,7 +24,7 @@
         <ul id="nav-mobile" class="right">
           <li class="nav-options"><a href="#row3"><i class="far fa-folder-open tooltipped" data-position="bottom"
                 data-tooltip="Portfolio"></i></a></li>
-          <li class="nav-options"><a href="collapsible.html"><i class="far fa-address-card tooltipped"
+          <li class="nav-options"><a href="#contactContainer"><i class="far fa-address-card tooltipped"
                 data-position="bottom" data-tooltip="Contact"></i></i></a></li>
         </ul>
       </div>
@@ -79,13 +79,13 @@
       <br>
       <br>
       <br>
-      <a href="#row3"><i class="far fa-arrow-alt-circle-down" id="down1"></i></a>
+      <a href="#row3"><i class="far fa-arrow-alt-circle-down"  id="down1"></i></a>
       <br>
       <br>
       <br>
     </div>
     <div class="row" >
-      <div class="sectionTwo scrollSpy" id="row3">
+      <div class="sectionTwo scrollspy" id="row3">
         <div class="projectContainer">
           <p id="projectHeader">.recent projects.</p>
           <div class="row">
@@ -106,6 +106,10 @@
           <div class="col m4">
             <img src="images/Password Generator.png" class="projectItem" id="passgen">
           </div>
+          
+        </div>
+        <div class="row">
+          <a href="#contactContainer"><i class="far fa-arrow-alt-circle-down"  id="down2"></i></a>
         </div>
         </div>
       </div>
@@ -117,28 +121,28 @@
   </main>
 
   <footer class="page-footer">
-    <div class="container">
-      <div class="row">
+    <div class="container scrollspy" id="contactContainer">
+      <div class="row" id="contact-page">
         <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">Let's Get in Touch!</p>
-          <p></p>
+          <p class="footer-text">Let's Get in Touch! <hr></p>
+          <p class="footer-subtext">Need to contact me? Feel free to reach out via phone or e-mail.</p>
+          <p class="footer-text"><i class="fas fa-phone-alt"></i> 570.294.1517 </p>
+          <p class="footer-text"><i class="far fa-envelope"></i> <a href="mailto:jordansmith3813@gmail.com"> jordansmith3813@gmail.com </a></p>
+
         </div>
         <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
+          <p class="footer-text">Connect with Me! <hr></p>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/jordan-smith-47126a118/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class="grey-text text-lighten-3" href="https://github.com/jsmithxyz" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a class="footer-text" href="https://www.linkedin.com/in/jordan-smith-47126a118/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a class="footer-text" href="https://github.com/jsmithxyz" target="_blank"><i class="fab fa-github"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
       © 2020 
-      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-      </div>
     </div>
+   
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
