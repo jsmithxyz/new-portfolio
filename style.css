@@ -114,11 +114,13 @@ div#picHolder.col.s6 {
 
 .sectionTwo {
   width: 100%;
-  height: 900px;
+  height: 1000px;
   text-align: center;
   padding-top: 10px;
   background-image: url("images/business-computer-contemporary-desk-218863.jpg");
+  /* background-image: url("images/business-computer-contemporary-desk-218863.jpg"); */
   background-size: cover;
+  
 }
 
 #projectHeader {
@@ -138,7 +140,7 @@ div#picHolder.col.s6 {
   width: 375px;
   border-style: solid;
   border-width: 2px;
-  
+  border-color: black;
   border-radius: 10px;
 }
 
@@ -191,4 +193,53 @@ a > i {
 }
 
 
+#modal2 {
+  color: black;
+  text-align: justify;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #1ac6ff;
+  font-family: 'Martel', serif;
+}
+
+#appPic {
+  border-radius: 10px;
+  border-color: black;
+}
+
+#modal3 {
+  color: black;
+  text-align: justify;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #1ac6ff;
+  font-family: 'Martel', serif;
+}
+
+#modal4 {
+  color: black;
+  text-align: justify;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #1ac6ff;
+  font-family: 'Martel', serif;
+}
+
+#modal5 {
+  color: black;
+  text-align: justify;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #1ac6ff;
+  font-family: 'Martel', serif;
+}
+
+#modal6 {
+  color: black;
+  text-align: justify;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #1ac6ff;
+  font-family: 'Martel', serif;
+}
 

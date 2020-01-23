@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Martel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Martel&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rambla:700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/8eda10df1b.js" crossorigin="anonymous"></script>
 
@@ -25,7 +25,7 @@
           <li class="nav-options"><a href="#row3"><i class="far fa-folder-open tooltipped" data-position="bottom"
                 data-tooltip="Portfolio"></i></a></li>
           <li class="nav-options"><a href="#contactContainer"><i class="far fa-address-card tooltipped"
-                data-position="bottom" data-tooltip="Contact"></i></i></a></li>
+                data-position="bottom" data-tooltip="Contact"></i></a></li>
         </ul>
       </div>
     </nav>
@@ -48,13 +48,16 @@
                   <img src="images/JordanS_JordanS-R1-E008.jpg" height=200 width=200 id="profilePic">
                 </div>
                 <div class="col s6">
-                  <p id="bio">Hi, my name is Jordan. I'm a front end web devloper residing in the city of Philadelphia. I love building things with code, and have a passion for problem solving. Take a look at my résumé and let's get in touch!</p>
+                  <p id="bio">Hi, my name is Jordan. I'm a front end web devloper residing in the city of Philadelphia.
+                    I love building things with code, and have a passion for problem solving. Take a look at my résumé
+                    and let's get in touch!</p>
                 </div>
               </div>
 
 
               <div class="modal-footer">
-                <button id="resumeBtn"><a href="#!" class="modal-close waves-effect btn-flat">Download Résumé</a></button>
+                <button id="resumeBtn"><a href="#!" class="modal-close waves-effect btn-flat">Download
+                    Résumé</a></button>
               </div>
             </div>
 
@@ -79,38 +82,137 @@
       <br>
       <br>
       <br>
-      <a href="#row3"><i class="far fa-arrow-alt-circle-down"  id="down1"></i></a>
+      <a href="#row3"><i class="far fa-arrow-alt-circle-down" id="down1"></i></a>
       <br>
       <br>
       <br>
     </div>
-    <div class="row" >
+    <div class="row">
       <div class="sectionTwo scrollspy" id="row3">
         <div class="projectContainer">
           <p id="projectHeader">.recent projects.</p>
           <div class="row">
-          <div class="col m4">
-            <img src="images/GodzillaQuizPhoto.png" class="projectItem" id="godzilla">
+            <div class="col s4 m4">
+
+              <a href="#modal2" class="modal-trigger"><img src="images/GodzillaQuizPhoto.png" class="projectItem"
+                  id="godzilla"></a>
+
+              <div id="modal2" class="modal">
+                <div class="modal-content">
+                  <div class="row">
+                    <div class="col s6" id="picHolder">
+                      <img src="images/GodzillaQuizPhoto.png" height=200 width=300 id="appPic">
+                    </div>
+                    <div class="col s6">
+                      <p id="bio">This is a Godzilla themed quiz. Race the clock and answer questions to save your city
+                        from destruction!</p>
+                    </div>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button id="resumeBtn"><a href="https://jsmithxyz.github.io/homework-four/quiz.html" target="_blank"
+                        class="modal-close waves-effect btn-flat">View App</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col s4 m4">
+
+              <a href="#modal3" class="modal-trigger"><img src="images/WeatherApi.png" class="projectItem"
+                  id="weather"></a>
+
+              <div id="modal3" class="modal">
+                <div class="modal-content">
+                  <div class="row">
+                    <div class="col s6" id="picHolder">
+                      <img src="images/WeatherApi.png" height=200 width=300 id="appPic">
+                    </div>
+                    <div class="col s6">
+                      <p id="bio">This is an application built to display the current weather & 5-day forecast for any
+                        location.</p>
+                    </div>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button id="resumeBtn"><a href="https://jsmithxyz.github.io/homework-six/index.html" target="_blank"
+                        class="modal-close waves-effect btn-flat">View App</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col s4 m4">
+              <a href="#modal4" class="modal-trigger"><img src="images/PoochQuestPhoto.png" class="projectItem"
+                  id="pooch"></a>
+
+              <div id="modal4" class="modal">
+                <div class="modal-content">
+                  <div class="row">
+                    <div class="col s6" id="picHolder">
+                      <img src="images/PoochQuestPhoto.png" height=200 width=300 id="appPic">
+                    </div>
+                    <div class="col s6">
+                      <p id="bio">Pooch Quest is an application that assists the user in finding their perfect dog.</p>
+                    </div>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button id="resumeBtn"><a href="https://acucunato.github.io/pooch-quest/" target="_blank"
+                        class="modal-close waves-effect btn-flat">View App</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col m4">
-            <img src="images/WeatherApi.png" class="projectItem" id="weather">
+          <div class="row">
+            <div class="col s4 m4">
+              <a href="#modal5" class="modal-trigger"><img src="images/WorkdayScheduler.png" class="projectItem"
+                  id="workday"></a>
+
+
+              <div id="modal5" class="modal">
+                <div class="modal-content">
+                  <div class="row">
+                    <div class="col s6" id="picHolder">
+                      <img src="images/WorkdayScheduler.png" height=200 width=300 id="appPic">
+                    </div>
+                    <div class="col s6">
+                      <p id="bio">This application allows you to save and delete tasks to plan out your workday.</p>
+                    </div>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button id="resumeBtn"><a href="https://jsmithxyz.github.io/homework-five/" target="_blank"
+                        class="modal-close waves-effect btn-flat">View App</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col s4 m4">
+              <a href="#modal6" class="modal-trigger"><img src="images/Password Generator.png" class="projectItem" id="passgen"></a>
+
+              <div id="modal6" class="modal">
+                <div class="modal-content">
+                  <div class="row">
+                    <div class="col s6" id="picHolder">
+                      <img src="images/Password Generator.png" height=200 width=300 id="appPic">
+                    </div>
+                    <div class="col s6">
+                      <p id="bio">This application allows you to generate a random password, according to your desired characters!</p>
+                    </div>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button id="resumeBtn"><a href="https://jsmithxyz.github.io/homework-three/" target="_blank"
+                        class="modal-close waves-effect btn-flat">View App</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
-          <div class="col m4">
-            <img src="images/PoochQuestPhoto.png" class="projectItem" id="pooch">
+          <div class="row">
+            <a href="#contactContainer"><i class="far fa-arrow-alt-circle-down" id="down2"></i></a>
           </div>
-        </div>
-        <div class="row">
-          <div class="col m4">
-            <img src="images/WorkdayScheduler.png" class="projectItem" id="workday">
-          </div>
-          <div class="col m4">
-            <img src="images/Password Generator.png" class="projectItem" id="passgen">
-          </div>
-          
-        </div>
-        <div class="row">
-          <a href="#contactContainer"><i class="far fa-arrow-alt-circle-down"  id="down2"></i></a>
-        </div>
         </div>
       </div>
     </div>
@@ -124,25 +226,32 @@
     <div class="container scrollspy" id="contactContainer">
       <div class="row" id="contact-page">
         <div class="col l6 s12">
-          <p class="footer-text">Let's Get in Touch! <hr></p>
+          <p class="footer-text">Let's Get in Touch!
+            <hr>
+          </p>
           <p class="footer-subtext">Need to contact me? Feel free to reach out via phone or e-mail.</p>
           <p class="footer-text"><i class="fas fa-phone-alt"></i> 570.294.1517 </p>
-          <p class="footer-text"><i class="far fa-envelope"></i> <a href="mailto:jordansmith3813@gmail.com"> jordansmith3813@gmail.com </a></p>
+          <p class="footer-text"><i class="far fa-envelope"></i> <a href="mailto:jordansmith3813@gmail.com">
+              jordansmith3813@gmail.com </a></p>
 
         </div>
         <div class="col l4 offset-l2 s12">
-          <p class="footer-text">Connect with Me! <hr></p>
+          <p class="footer-text">Connect with Me!
+            <hr>
+          </p>
           <ul>
-            <li><a class="footer-text" href="https://www.linkedin.com/in/jordan-smith-47126a118/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class="footer-text" href="https://github.com/jsmithxyz" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a class="footer-text" href="https://www.linkedin.com/in/jordan-smith-47126a118/" target="_blank"><i
+                  class="fab fa-linkedin"></i></a></li>
+            <li><a class="footer-text" href="https://github.com/jsmithxyz" target="_blank"><i
+                  class="fab fa-github"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
-      © 2020 
+      © 2020
     </div>
-   
+
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
