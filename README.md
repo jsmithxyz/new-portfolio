@@ -2,7 +2,7 @@
 Updated Portfolio
 
 # Summary
-This password generator will produce a password based off of a user's answer to a character length prompt, and choices on which desired character types to include. Additionally, the password will be able to be copied to the clipboard using a Copy to Clipboard button. The purpose of this project was to use javascript, css, and html to create a mobile responsive application that will produce a random password.
+This portfolio was designed to showcase my recent projects, as well as provide some biographical information, résume, and contact information for anyone accessing the page.
     
 # Access
 My updated portfolio can be accessed [Here](https://jsmithxyz.github.io/new-portfolio/ "Here")
