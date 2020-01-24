@@ -95,9 +95,8 @@ div.footer-copyright {
   justify-self: center;
 }
 
-div#picHolder.col.s6 {
-  display: flex;
-  justify-content: center;
+#picHolder {
+  text-align: center;
 }
 
 #bio {
@@ -250,6 +249,23 @@ a > i {
 }
 
 @media only screen and (max-width: 600px) {
+  #firstSection {
+    height: 1000px;
+    width: 100%;
+  }
+
+  div#row3.sectionTwo.scrollspy {
+    height: 1800px;
+  }
+
+  #project header {
+    text-align: center;
+  }
+
+  
+}
+
+@media only screen and (max-width: 960px) {
   #firstSection {
     height: 1000px;
     width: 100%;
