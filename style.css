@@ -117,14 +117,15 @@ div#picHolder.col.s6 {
   height: 1000px;
   text-align: center;
   padding-top: 10px;
-  background-image: url("images/business-computer-contemporary-desk-218863.jpg");
+  background-color: white;
   /* background-image: url("images/business-computer-contemporary-desk-218863.jpg"); */
+  background-image: url("images/background-cement-concrete-paint-242236.jpg");
   background-size: cover;
   
 }
 
 #projectHeader {
-  color: white;
+  color: black;
   font-size: 30px;
   font-family:'Rambla', sans-serif; 
   text-align: left;
@@ -145,7 +146,7 @@ div#picHolder.col.s6 {
 }
 
 footer.page-footer {
-  background-color: white;
+  background-color: black;
   height: 600px;
 }
 
@@ -169,12 +170,12 @@ div.modal-footer {
 }
 
 .footer-text {
-  color: black;
+  color: white;
   font-family:'Rambla', sans-serif; 
 }
 
 .footer-subtext {
-  color: black;
+  color: white;
   font-family:'Rambla', sans-serif; 
   font-size: 15px;
 }
@@ -189,7 +190,7 @@ a > i {
 
 #down2 {
   font-size:35px;
-  color: white;
+  color: #1ac6ff;
 }
 
 
