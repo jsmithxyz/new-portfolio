@@ -1,7 +1,6 @@
 body {
     display: flex;
     min-height: 100vh;
-    width: 100%;
     flex-direction: column; 
     background-color: black;
     background-size: cover;
@@ -145,16 +144,21 @@ div#picHolder.col.s6 {
   border-radius: 10px;
 }
 
+
+
 footer.page-footer {
   background-color: black;
   height: 600px;
+
 }
 
 div.footer-copyright {
   height: 50px;
 }
 
-
+div.nav-wrapper {
+  width: auto;
+}
 
 div.modal-footer {
   text-align: center !important;
@@ -182,6 +186,7 @@ div.modal-footer {
 
 #contactContainer {
   height: 600px;
+  width: 100%;
 }
 
 a > i {
@@ -247,6 +252,7 @@ a > i {
 @media only screen and (max-width: 600px) {
   #firstSection {
     height: 1000px;
+    width: 100%;
   }
 
   div#row3.sectionTwo.scrollspy {
@@ -256,4 +262,6 @@ a > i {
   #project header {
     text-align: center;
   }
+
+  
 }
