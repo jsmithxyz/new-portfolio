@@ -244,3 +244,16 @@ a > i {
   font-family: 'Martel', serif;
 }
 
+@media only screen and (max-width: 600px) {
+  #firstSection {
+    height: 1000px;
+  }
+
+  div#row3.sectionTwo.scrollspy {
+    height: 1800px;
+  }
+
+  #project header {
+    text-align: center;
+  }
+}
