@@ -19,8 +19,6 @@ body {
   font-size: 30px;
   height: 100vh;
   justify-content: center;
-  
-  
 }
 
 
@@ -32,7 +30,7 @@ body {
 
 main {
     flex: 1 0 auto;
-  }
+}
 
 
 #nav-mobile {  
@@ -260,6 +258,16 @@ a > i {
 
   #project header {
     text-align: center;
+    margin-left: 0px;
+  }
+
+  #bio {
+    text-align: center;
+  }
+
+  .projectItem {
+    height: 250px;
+    width: 375px;
   }
 
   
@@ -275,9 +283,44 @@ a > i {
     height: 1800px;
   }
 
-  #project header {
+  #projectHeader {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  #bio {
     text-align: center;
   }
 
+  .projectItem {
+    height: 250px;
+    width: 375px;
+  }
+  
+}
+
+@media only screen and (max-width: 1130px) {
+  #firstSection {
+    height: 1000px;
+    width: 100%;
+  }
+
+  div#row3.sectionTwo.scrollspy {
+    height: 1800px;
+  }
+
+  #projectHeader {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  #bio {
+    text-align: center;
+  }
+
+  .projectItem {
+    height: 200px;
+    width: 325px;
+  }
   
 }
