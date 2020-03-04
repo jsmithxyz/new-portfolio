@@ -5,7 +5,7 @@ Updated Portfolio
 This portfolio was designed to showcase my recent projects, as well as provide some biographical information, résume, and contact information for anyone accessing the page.
     
 # Access
-My updated portfolio can be accessed [Here](https://jsmithxyz.github.io/new-portfolio/ "Here")
+My updated portfolio can be accessed [Here](https://jsmith.xyz "Here")
 
 # Installation
 This portfolio was built using the CSS framework, Materialize. 
